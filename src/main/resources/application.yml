@@ -1,8 +1,26 @@
 management:
+  info:
+    java:
+      enabled: true
+    os:
+      enabled: true
+    env:
+      enabled: true
+    git:
+      mode: full # ? ??? ?? ??
+#      mode: simple # ???? ?? ??
   endpoint:
     shutdown:
       enabled: true
+    health:
+      show-components: always # ???? ?? ??
+  #      show-details: always # ??? ?? ??
   endpoints:
     web:
       exposure:
         include: "*"
+
+info: # management.info.env ??
+  app:
+    name: ActuatorApplication
+    author: yh, jl
