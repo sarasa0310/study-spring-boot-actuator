@@ -1,4 +1,6 @@
 management:
+#  server:
+#    port: 9292 # actuator ?? ???? ??
   info:
     java:
       enabled: true
@@ -19,6 +21,7 @@ management:
     web:
       exposure:
         include: "*"
+#      base-path: "/manage" # actuator ????? ?? ?? ??
 
 info: # management.info.env ??
   app:
