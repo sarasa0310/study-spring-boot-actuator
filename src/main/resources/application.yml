@@ -24,3 +24,7 @@ info: # management.info.env ??
   app:
     name: ActuatorApplication
     author: yh, jl
+
+logging:
+  level:
+    hello.controller: debug
