@@ -31,3 +31,8 @@ info: # management.info.env ??
 logging:
   level:
     hello.controller: debug
+
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true  # 톰캣의 최대 쓰레드, 사용 쓰레드 수를 포함한 다양한 메트릭 확인
